@@ -1,0 +1,173 @@
+body{
+    background-color:#023246;
+    background-color:#000e14;
+}
+h1
+{
+    color: rgb(92, 92, 12);
+    color:rgb(163, 163, 43);
+
+    /* color:#F8B53A;  */
+ 
+ 
+   text-align: center;
+   /* border:1px solid red; */
+   display: block;
+}
+.quote-outer
+{
+    width: 700px;
+    height: 500px;
+    margin:0 auto;
+    /* margin-top: 120px; */
+    /* transform: translate(60%,20%); */
+    background-color:#287094;
+   
+}
+.quote-container
+{
+    
+    width: 500px;
+    height: 400px;
+    margin:0 auto;
+    background-color:#d4d4ce;
+    /* padding-top:10px; */
+    /* margin-bottom: 60px; */
+    transform: translate(1%,15%);
+   
+}
+
+.fa-twitter{
+    color:#00acee;
+    float: right;
+    /* background-color: rgb(70, 24, 24); */
+    /* border-radius: 50%; */
+    
+}
+.fa-twitter:hover
+{
+ /* color: rgb(64, 168, 175); */
+ color: rgb(141, 40, 92);
+ transition: 1s;
+ cursor: pointer;
+
+}
+.fa-quote-left
+{
+    transform: translate(100%,180%);
+    color: rgb(65, 61, 61);
+}
+.quote-text{
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+.author
+{
+    margin-right:15px;
+    text-align: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+.newquote
+{
+    width:500px;
+    height: 35px;
+    font-size: 25px;
+    padding-top:2px;
+    padding-bottom:2px;
+    position: absolute;
+    bottom: 0;
+    outline:none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(92, 92, 12);
+}
+
+@media (max-width:460px)
+{
+    .quote-outer
+    {
+    /* width: 360px; */
+    /* width: 455px; */
+    width: 100%;
+    height: 500px;
+
+   
+    /* margin-left:-15px; */
+    /* margin-right: -15px;  */
+    }
+
+    .quote-container
+    {
+        /* width: 330px; */
+        width: 85%; 
+       
+ 
+        background-color:#d4d4ce;
+        
+        transform: translate(-1%,15%);
+        
+        /* padding-top:0px; */
+        /* margin-bottom: 10px; */
+        
+    }
+    .newquote
+    {
+        /* width: 330px; */
+        width: 100%;
+        
+    }
+    .fa-twitter{
+        margin-right:45%;
+        
+    }
+}
+
+@media (max-width:375px)
+{
+    .quote-outer
+    {
+    
+    width: 100%;
+    height: 540px;
+    margin-bottom: 50px;
+    }
+
+    .quote-container
+    {
+        
+        width: 85%; 
+        height: 430px;
+       
+        background-color:#d4d4ce;
+        
+        transform: translate(0%,15%);   
+    }
+    .newquote
+    {
+        width: 100%;
+        /* height: 430px; */
+    }
+    .fa-twitter{
+        margin-right:45%;
+        
+    }
+}
+
+
+ @media (max-width:320px)
+{
+    .quote-outer
+    { 
+    width: 100%;
+    height: 540px;
+    margin-top:50px;
+    }
+} 
